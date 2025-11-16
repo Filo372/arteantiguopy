@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Canonical -->
+  <link rel="canonical" href="https://tusitio.example/arte-antiguo" />
+<title>Arqueología del Arte Antiguo</title>
+  <!-- Preconnects  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&family=Merriweather:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data (JSON-LD) 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Arqueología del Arte Antiguo",
+    "url": "https://tusitio.example/arte-antiguo",
+    "description": "Análisis crítico y recursos sobre el arte de civilizaciones antiguas.",
+    "inLanguage": "es"
+  }
+  </script>
+  <script defer src="script.js"></script>-->
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!--<a class="skip-link" href="#main">Saltar al contenido principal</a>-->
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Ir a inicio">Arte Antiguo</a>
+
+      <div class="title-area">
+        <h1>Arqueología del Arte Antiguo</h1>
+        <p class="tagline">Una mirada crítica a las manifestaciones artísticas de las civilizaciones antiguas</p>
+      </div>
+
+      <div class="header-controls">
+        <button id="darkToggle" class="btn" aria-pressed="true" aria-label="Activar modo oscuro"
+          onclick="initDarkMode()">🌙 Modo Oscuro</button>
+        <!--<button id="searchOpen" class="btn" aria-expanded="false" aria-controls="siteSearch"
+          aria-label="Abrir búsqueda" onclick="buscarTxt()">🔍 Buscar</button>-->
+        <button class="hamburger" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+          <span class="hamb-line"></span>
+          <span class="hamb-line"></span>
+          <span class="hamb-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú principal -->
+  <nav id="menu" class="nav-links" role="navigation" aria-label="Navegación principal">
+    <ul>
+      <li><a href="#introduccion">Introducción</a></li>
+      <li><a href="#egipto">Egipto</a></li>
+      <li><a href="#mayas">Mayas</a></li>
+      <li><a href="#grecia">Grecia</a></li>
+      <li><a href="#sumerios">Sumerios</a></li>
+      <li><a href="#vedas">Vedas</a></li>
+      <li><a href="#roma">Roma</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#linea-tiempo">Cronología</a></li>
+      <li><a href="#recursos">Recursos</a></li>
+      <li><a href="#cita">Citas</a></li>
+      <li><a href="#reflexion">Reflexión</a></li>
+      <li><a href="#bibliografia">Fuentes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main id="main" tabindex="-1">
+    <!-- INTRODUCCIÓN -->
+    <section id="introduccion" class="container">
+      <header>
+        <h2>Introducción</h2>
+      </header>
+      <p>La Arqueología del Arte Antiguo no es simplemente el estudio de objetos bellos o monumentos imponentes dejados
+        por civilizaciones pasadas. Es una disciplina liminar, un campo de investigación fascinante que se sitúa en la
+        intersección entre la Arqueología, la Historia del Arte, la Antropología y la Estética. Su objetivo fundamental
+        va más allá de la mera apreciación formal; se trata de una ciencia interpretativa que busca descifrar los
+        códigos visuales, simbólicos y tecnológicos de las sociedades pretéritas para comprender su cosmovisión, sus
+        estructuras de poder, sus creencias religiosas y su vida cotidiana.
+
+        A diferencia del enfoque tradicional de la Historia del Arte, que a menudo prioriza la evolución de los estilos
+        y la autoría, la Arqueología del Arte se sumerge en el contexto del que la obra emergió. Cada pigmento, cada
+        golpe de cincel, cada localización de un petroglifo es tratado como una evidencia material, un testimonio
+        silencioso que, cuando es interrogado con las herramientas metodológicas correctas, puede revelar narrativas
+        profundas sobre la humanidad.
+
+      </p>
+
+      <aside class="callout" aria-hidden="false">
+        <h3>Guía de lectura</h3>
+        <p>Si buscas una introducción rápida: lee la cronología y la galería. Para investigación: revisa la sección de
+          recursos y bibliografía.</p>
+      </aside>
+    </section>
+
+    <!-- EGIPTO -->
+    <article id="egipto" class="container" aria-labelledby="h-egipto">
+      <header>
+        <h2 id="h-egipto">Arte del Antiguo Egipto</h2>
+        <p class="lede">Rigidez, simbolismo y una estética puesta al servicio del más allá.</p>
+      </header>
+
+      <img src="Imagenes/Ivis de Thot.jpg" alt="Escultura egipcia representando al dios Thot sentado con papiro"
+        width="400" height="265">
+      <p class="lede">Representación simbólica del dios Thot, patrón del conocimiento y la escritura.</p>
+
+      <!--<figure>
+        <picture>
+          <source srcset="Imagenes/Ivis-de-Thot.webp" type="image/webp">
+          <img="lazy" src="Imagenes/Ivis de Thot.jpg" alt="Escultura egipcia representando al dios Thot sentado con papiro" width="800" height="533">
+        </picture>
+        <figcaption>Representación simbólica del dios Thot, patrón del conocimiento y la escritura.</figcaption>
+      </figure>-->
+
+      <p>El arte del Antiguo Egipto es un lenguaje visual complejo y coherente. Cada línea, color y forma estaba cargada de significado, diseñada no para ser simplemente observada, sino para existir y actuar en un plano cósmico. Es el testimonio monumental de una civilización obsesionada con el orden, la divinidad y, sobre todo, con la victoria sobre la muerte, un legado que, milenios después, sigue despertando nuestra admiración y asombro.</p>
+
+      <ul class="detalle-arte">
+        <li><strong>Técnicas y materiales:</strong> Piedra caliza, granito, madera, oro, pigmentos minerales; policromía
+          aplicada con colas orgánicas; técnicas de talla y encaje.</li>
+        <li><strong>Temas recurrentes:</strong> Dioses, faraones, escenas funerarias, ritmos cosmológicos y fórmulas
+          hieráticas.</li>
+        <li><strong>Interpretación crítica:</strong> El arte como instrumento de legitimación social —los faraones
+          controlaban la representación para consolidar su poder simbólico—.</li>
+      </ul>
+
+      <section class="subsection">
+        <h3>Contexto socioeconómico</h3>
+        <p>El Estado centralizado y la economía canalizada por el templo condicionaron la producción artística: talleres
+          oficiales, control de materiales preciosos y una formación artesanal transmitida por generaciones.</p>
+      </section>
+
+      <a class="read-more" href="#bibliografia">Ver lecturas recomendadas sobre Egipto →</a>
+    </article>
+
+    <!-- MAYAS -->
+    <article id="mayas" class="container" aria-labelledby="h-mayas">
+      <header>
+        <h2 id="h-mayas">Arte de los Mayas</h2>
+        <p class="lede">Astronomía, escritura y poder ritual en piedra y pigmento.</p>
+      </header>
+
+      <img src="Imagenes/Rueda Maya.jpg" alt="Rueda ceremonial maya tallada en piedra con motivos astronómicos"
+        width="400" height="265">
+      <p class="lede">Rueda ceremonial maya tallada en piedra con motivos astronómicos.</p>
+
+      <!--<figure>
+        <picture>
+          <source srcset="Imagenes/Rueda-Maya.webp" type="image/webp">
+          <img="lazy" src="Imagenes/Rueda Maya.jpg"
+            alt="Rueda ceremonial maya tallada en piedra con motivos astronómicos" width="800" height="533">
+        </picture>
+        <figcaption>Rueda ceremonial con motivos astronómicos mayas.</figcaption>
+      </figure>-->
+
+      <p>Sumergirse en el mundo maya es adentrarse en una de las civilizaciones más fascinantes y enigmáticas de la antigua Mesoamérica. Durante siglos, sus majestuosas ciudades, ocultas por la densa selva tropical, guardaron silencio. Hoy, gracias a la arqueología, estas piedras hablan, narrando historias de poderosos reyes, complejos conocimientos astronómicos y una explosión de expresión artística que rivaliza con cualquier cultura del mundo antiguo. Este viaje explora la simbiosis perfecta entre el legado material (arqueología) y su expresión creativa (arte).
+      </p>
+
+      <ul class="detalle-arte">
+        <li><strong>Técnicas:</strong> Tallado en piedra volcánica, estuco, pintura mineral y orgánica, códices en
+          corteza de amate.</li>
+        <li><strong>Temas:</strong> Deidades astronómicas, gobernantes divinizados, rituales y genealogías.</li>
+      </ul>
+
+      <section class="subsection">
+        <h3>Conservación y lecturas recientes</h3>
+        <p>Investigaciones recientes han reinterpretado escenas antes tomadas por literales: muchas representaciones
+          rituales funcionan como narrativas políticas.</p>
+      </section>
+    </article>
+
+    <!-- GRECIA -->
+    <article id="grecia" class="container" aria-labelledby="h-grecia">
+      <header>
+        <h2 id="h-grecia">Arte de la Antigua Grecia</h2>
+        <p class="lede">Proporción, ideal del cuerpo y la invención de la estética occidental.</p>
+      </header>
+
+      <img src="Imagenes/Arte griego.jpg" alt="Escultura griega en mármol representando la belleza ideal clásica"
+        width="400" height="265">
+      <p class="lede">Escultura griega en mármol representando la belleza ideal clásica.</p>
+
+      <!--<figure>
+        <picture>
+          <source srcset="Imagenes/Arte-griego.webp" type="image/webp">
+          <img="lazy" src="Imagenes/Arte griego.jpg"
+            alt="Escultura griega en mármol representando la belleza ideal clásica" width="800" height="533">
+        </picture>
+        <figcaption>Ideal de belleza y proporción en la escultura griega clásica.</figcaption>
+      </figure>-->
+
+      <p>Si el arte egipcio buscaba la eternidad y el maya el poder del mundo espiritual, el arte de la Antigua Grecia emprendió una búsqueda revolucionaria: capturar la esencia de la belleza ideal, el equilibrio y la razón humana. Surgido entre islas bañadas por el sol Egeo y en ciudades-estado rivales, el arte griego sentó las bases de la estética occidental. No era un arte al servicio exclusivo de dioses o faraones, sino una celebración del ser humano como medida de todas las cosas.
+
+A través de la arqueología, hemos recuperado templos en ruinas, estatuas de mármol y cerámicas pintadas que nos cuentan la historia de una civilización obsesionada con la perfección formal, la armonía matemática y la narrativa mitológica.
+
+</p>
+      <ul class="detalle-arte">
+        <li><strong>Técnicas:</strong> Mármol, bronce (fundición a la cera perdida), cerámica decorada.</li>
+        <li><strong>Temas:</strong> Mitología, cuerpo ideal, filosofía y ritual cívico.</li>
+      </ul>
+    </article>
+
+    <!-- SUMERIOS -->
+    <article id="sumerios" class="container" aria-labelledby="h-sumerios">
+      <header>
+        <h2 id="h-sumerios">Arte de Mesopotamia / Sumeria</h2>
+      </header>
+
+      <img src="Imagenes/hombre sosteniendo unas anforas.jpeg"
+        alt="Relieve mesopotámico con figura sosteniendo ánforas y textos cuneiformes" width="400" height="265">
+      <p class="lede">Relieve mesopotámico con figura sosteniendo ánforas y textos cuneiformes.</p>
+
+      <!--<figure>
+        <picture>
+          <source srcset="Imagenes/hombre-sosteniendo-anforas.webp" type="image/webp">
+          <img="lazy" src="Imagenes/hombre sosteniendo unas anforas.jpeg"
+            alt="Relieve mesopotámico con figura sosteniendo ánforas y textos cuneiformes" width="800" height="533">
+        </picture>
+        <figcaption>Escena ceremonial que muestra la función sagrada del monarca mesopotámico.</figcaption>
+      </figure>-->
+
+      <p>Entre los ríos Tigris y Éufrates, en una tierra de llanuras fértiles y sin barreras naturales, florecieron las primeras civilizaciones humanas. Mesopotamia (el "país entre dos ríos") no fue un imperio unificado, sino un sucesión de pueblos—sumerios, acadios, babilonios y asirios—cuyo legado artístico sentó las bases del arte occidental. A diferencia de la búsqueda del ideal griego o la eternidad egipcia, el arte mesopotámico fue un arte del poder: poder del soberano, poder del sacerdote y poder del estado, creado para impresionar, intimidar y perdurar en la memoria.
+
+La arqueología ha desenterrado esta historia capa por capa, revelando cómo el ingenio humano transformó el barrio y la piedra en los primeros grandes monumentos de la historia.</p>
+    </article>
+
+    <!-- VEDAS -->
+    <article id="vedas" class="container" aria-labelledby="h-vedas">
+      <header>
+        <h2 id="h-vedas">Arte védico / Tradición hindú temprana</h2>
+        <p class="lede">Símbolos, danzas y mandalas como mapa cosmológico.</p>
+      </header>
+
+      <img src="Imagenes/arte indu.jpg" alt="Escultura védica representando a Shiva Nataraja, el bailarín cósmico"
+        width="400" height="265">
+      <p class="lede">Escultura védica representando a Shiva Nataraja, el bailarín cósmico.</p>
+
+      <!--<figure>
+        <picture>
+          <source srcset="Imagenes/arte-indu.webp" type="image/webp">
+          <img="lazy" src="Imagenes/arte indu.jpg"
+            alt="Escultura védica representando a Shiva Nataraja, el bailarín cósmico" width="800" height="533">
+        </picture>
+        <figcaption>Shiva Nataraja: danza, destrucción y regeneración.</figcaption>
+      </figure>-->
+
+      <p>Si en Mesopotamia, Egipto o Grecia la arqueología nos habla a través de piedras esculpidas y templos monumentales, el periodo védico de la India (c. 1500 - 500 a.C.) nos presenta un fascinante enigma: una de las tradiciones culturales y espirituales más ricas de la historia humana no nos legó, en sus inicios, templos, esculturas ni pinturas. Su arte supremo fue la palabra, el sonido y el ritual efímero. Comprender esta "ausencia" es la clave para apreciar la profunda originalidad del arte hindú temprano.</p>
+    </article>
+
+    <!-- ROMA -->
+    <article id="roma" class="container" aria-labelledby="h-roma">
+      <header>
+        <h2 id="h-roma">Arte de Roma</h2>
+        <p class="lede">Propaganda, ingeniería y retrato realista al servicio de la institución.</p>
+      </header>
+
+      <img src="Imagenes/Tellus_-_Ara_Pacis.jpg"
+        alt="Relieve del Ara Pacis que muestra escenas procesionales y símbolos agrícolas" width="400" height="265">
+      <p class="lede">Relieve del Ara Pacis que muestra escenas procesionales y símbolos agrícolas.</p>
+
+      <!--<figure>
+        <picture>
+          <source srcset="Imagenes/Tellus-Ara-Pacis.webp" type="image/webp">
+          <img="lazy" src="Imagenes/Tellus_-_Ara_Pacis.jpg"
+            alt="Relieve del Ara Pacis que muestra escenas procesionales y símbolos agrícolas" width="800" height="533">
+        </picture>
+        <figcaption>Relieve del Ara Pacis Augustae, símbolo de prosperidad y orden imperial.</figcaption>
+      </figure>-->
+
+      <p>El arte de la Antigua Roma es la manifestación visual de uno de los imperios más vastos y duraderos de la historia. A diferencia de la búsqueda del ideal griego, el arte romano tuvo un propósito fundamentalmente práctico y propagandístico: glorificar a la ciudad de Roma, ensalzar a sus emperadores y demostrar el poder y la extensión de su imperio. Los romanos fueron los grandes sintetizadores de la antigüedad: asimilaron el arte griego, lo mezclaron con sus propias tradiciones y con influencias etruscas, y crearon un lenguaje artístico único, marcado por el realismo, la monumentalidad y una ingeniería sin igual.
+
+</p>
+    </article>
+
+    <!-- GALERÍA (lightbox básico) -->
+    <section id="galeria" class="container">
+      <header>
+        <h2>Galería de Obras Destacadas</h2>
+        <p class="lede">Seleccionadas por su valor artístico, contextual y su estado de conservación.</p>
+      </header>
+
+      <div class="gallery" role="list">
+        <button class="gallery-item" role="listitem" aria-label="Ver Frescos egipcios en tumba de Tebas"
+          data-src="Imagenes/Frescos egipcios en tumba de Tebas.jpg"
+          data-caption="Frescos egipcios en tumba de Tebas — representación funeraria.">
+          <img loading="lazy" src="Imagenes/Frescos egipcios en tumba de Tebas.jpg"
+            alt="Frescos egipcios en tumbas de Tebas" width="300" height="200">
+        </button>
+
+        <button class="gallery-item" role="listitem" aria-label="Ver Pirámide de Kukulkán"
+          data-src="Imagenes/Pirámide de Kukulkán, Chichén Itzá.jpg"
+          data-caption="Pirámide de Kukulkán en Chichén Itzá — eje astronómico y ceremonial.">
+          <img src="Imagenes/Pirámide de Kukulkán, Chichén Itzá.jpg" alt="Pirámide de Kukulkán, Chichén Itzá"
+            width="300" height="200">
+        </button>
+
+        <button class="gallery-item" role="listitem" aria-label="Ver Partenón en Atenas"
+          data-src="Imagenes/partenon-de-atenas-grecia.jpg"
+          data-caption="El Partenón — templo perfecto dedicado a Atenea.">
+          <img src="Imagenes/partenon-de-atenas-grecia.jpg" alt="El Partenón en Atenas" width="300" height="200">
+        </button>
+
+        <button class="gallery-item" role="listitem" aria-label="Ver Mosaico romano"
+          data-src="Imagenes/mosaico-de-st-roman-en-gal.jpg"
+          data-caption="Mosaico romano decorativo — íconos domésticos y públicos.">
+          <img src="Imagenes/mosaico-de-st-roman-en-gal.jpg" alt="Mosaico Romano decorativo" width="300"
+            height="200">
+        </button>
+
+        <button class="gallery-item" role="listitem" aria-label="Ver Estandarte de Ur"
+          data-src="Imagenes/Estandarte de la UR.jpg"
+          data-caption="Estandarte de Ur — narrativa de guerra y paz en registros.">
+          <img id  src="Imagenes/Estandarte de la UR.jpg" alt="Estandarte de Ur, arte sumerio significativo"
+            width="300" height="200">
+        </button>
+      </div>
+<button class="gallery-item" role="listitem" aria-label="Ver Estandarte de Ur"
+          data-src="Imagenes/Statue_of_Liberty_Paris_2007-05-29.jpg"
+          data-caption="Estandarte de Ur — narrativa de guerra y paz en registros.">
+          <img id="lbimage" src="Imagenes/Statue_of_Liberty_Paris_2007-05-29.jpg" alt="Estatua de la Libertad"
+            width="300" height="200">
+        </button>
+      </div>
+      <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="lightbox-content">
+          <button id="lbClose" class="lb-close" aria-label="Cerrar vista">✕</button>
+          <img id="lbImage" src="" alt="">
+          <p id="lbCaption"></p>
+          <div class="lb-controls">
+            <button id="lbPrev" class="btn" aria-label="Imagen anterior">◀</button>
+            <button id="lbNext" class="btn" aria-label="Siguiente imagen">▶</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CRONOLOGÍA -->
+    <section id="linea-tiempo" class="container">
+      <header>
+        <h2>Cronología del Arte Antiguo</h2>
+      </header>
+
+      <ol class="timeline" aria-label="Cronología del arte antiguo">
+        <li><time datetime="-3500">3500 a.C.</time> – Desarrollo de las primeras ciudades en Mesopotamia.</li>
+        <li><time datetime="-3000">3000 a.C.</time> – Consolidación del arte egipcio.</li>
+        <li><time datetime="-2500">2500 a.C.</time> – Apogeo de las pirámides de Egipto.</li>
+        <li><time datetime="-1500">1500 a.C.</time> – Arte minoico en Creta.</li>
+        <li><time datetime="-1200">1200 a.C.</time> – Transformaciones en el Mediterráneo oriental.</li>
+        <li><time datetime="-800">800 a.C.</time> – Inicio del periodo arcaico y clásico griego.</li>
+        <li><time datetime="-27">27 a.C.</time> – Fundación efectiva del Imperio Romano bajo Augusto.</li>
+        <li><time datetime="400">400 d.C.</time> – Transición hacia el arte paleocristiano.</li>
+      </ol>
+
+      <p class="note">Fechas aproximadas. Las cronologías cambian según las nuevas dataciones y estudios.</p>
+    </section>
+
+    <!-- CITAS -->
+    <section id="cita" class="container" aria-labelledby="h-cita">
+      <h2 id="h-cita">Cita inspiradora</h2>
+      <blockquote>
+        “El arte no reproduce lo visible; hace visible lo que no siempre lo es.”
+        <cite>— Paul Klee</cite>
+      </blockquote>
+      <p class="reflection">Reflexión: las piezas antiguas nos remiten a marcos simbólicos que ya no operan, pero
+        continúan dialogando con nuestro presente.</p>
+    </section>
+
+    <!-- REFLEXIÓN -->
+    <section id="reflexion" class="container">
+      <h2>Reflexión Final</h2>
+      <p>El arte antiguo no debe considerarse únicamente como una expresión estética, sino como una ventana al
+        pensamiento, la espiritualidad y la organización social de los pueblos que dieron forma a nuestra historia
+        cultural. Su estudio es una manera de reconocernos como herederos de una humanidad que siempre buscó trascender
+        el tiempo.</p>
+
+      <details>
+        <summary>Temas para discusión</summary>
+        <ul>
+          <li>La función política del arte en Estados premodernos.</li>
+          <li>Conservación y restitución de patrimonio.</li>
+          <li>Interpretación simbólica vs. lectura materialista.</li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- RECURSOS Y ACTIVIDADES 
+    <section id="recursos" class="container">
+      <h2>Recursos y actividades</h2>
+      <div class="resources-grid">
+        <article class="resource">
+          <h3>Guía didáctica para estudiantes</h3>
+          <p>Un cuadernillo con actividades para introducir a estudiantes en la lectura de imágenes antiguas.</p>
+          <a href="#" class="btn">Descargar PDF</a>
+        </article>
+
+        <article class="resource">
+          <h3>Mapas interactivos</h3>
+          <p>Mapas con capas cronológicas para visualizar la expansión de culturas y estilos artísticos.</p>
+          <a href="#" class="btn">Ver mapa</a>
+        </article>
+
+        <article class="resource">
+          <h3>Bibliografía comentada</h3>
+          <p>Reseñas críticas y enlaces a artículos académicos y libros.</p>
+          <a href="#bibliografia" class="btn">Ir a fuentes</a>
+        </article>
+      </div>
+    </section>-->
+
+    <!-- BIBLIOGRAFÍA -->
+    <section id="bibliografia" class="container">
+      <h2>Bibliografía</h2>
+      <ul>
+        <li>Boardman, J. (2015). <em>Historia del Arte Clásico</em>.</li>
+        <li>Gombrich, E. H. (2000). <em>La historia del arte</em>.</li>
+        <li>Coe, M. D. (2011). <em>Los mayas</em>.</li>
+        <li>Foster, B. (2016). <em>The Art of Ancient Mesopotamia</em>.</li>
+        <li>Rowland, I. D. (2018). <em>The Art of Rome</em>.</li>
+        <li>Childe, V. G. (1942). <em>What Happened in History</em>.</li>
+        <li>Schmidt, P. R. (2006). <em>The Archaeology of Ancient Egypt</em>.</li>
+        <li>Artículos recientes: <a href="#" rel="noopener">Nuevas dataciones del sitio X</a>, <a href="#"
+            rel="noopener">Revisión de iconografía Y</a>.</li>
+      </ul>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="container contact">
+      <h2>Contacto y colaboración</h2>
+      <p>¿Tienes recursos, imágenes con licencia o investigaciones que compartir? Escríbenos.</p>
+
+      <form id="contactForm" action="#" method="post" aria-label="Formulario de contacto">
+        <div class="form-row">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-row actions">
+          <button type="submit" class="btn">Enviar</button>
+          <button type="reset" class="btn btn-secondary">Limpiar</button>
+        </div>
+        <p id="formStatus" aria-live="polite" class="form-status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner container">
+      <p>© 2025 Arqueología del Arte Antiguo | Proyecto Diseño web — David Sanabria</p>
+      <nav aria-label="Enlaces de pie de página">
+        <ul class="footer-links">
+          <li><a href="#bibliografia">Fuentes</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button id="scrollTop" class="btn" aria-label="Ir arriba">⬆ Ir arriba</button>
+    </div>
+  </footer>
+</body>
+
+</html>
